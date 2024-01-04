@@ -70,12 +70,10 @@ animations = [{
 size = Vector2(16, 14)
 
 [node name="Player" type="Area2D"]
-position = Vector2(116, 265)
-scale = Vector2(1.02984, 1.04536)
 script = ExtResource("1_lqj0u")
 
 [node name="Ship" type="Sprite2D" parent="."]
-position = Vector2(-2, 0)
+position = Vector2(110, 293)
 texture = ExtResource("2_kl2yx")
 hframes = 3
 frame = 1
@@ -88,7 +86,7 @@ sprite_frames = SubResource("SpriteFrames_g3m2f")
 animation = &"left"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-2, 0)
+position = Vector2(110, 293)
 shape = SubResource("RectangleShape2D_6t4b2")
 
 [node name="GunCooldown" type="Timer" parent="."]
